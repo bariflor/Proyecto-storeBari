@@ -1,0 +1,57 @@
+body{
+	font-family: 'Satisfy', cursive;
+}
+*{
+/*	outline: 1px solid red;
+*/}
+#header-container{
+	background-color: pink;
+	color: white;
+}
+#header-container .login,
+#header-container .navbar-toggler{
+	
+	color: white;
+}
+#menu-container{
+	background-color: #f7f7f9;
+}
+.btn.btn-bari{
+	background-color: #99c84a;
+	color: white;
+}
+.btn.btn-bari:hover{
+	background-color: #8ab542;
+}
+input.form-control:focus{
+	border-color: #99c84a;
+}
+#search-bar{
+	padding: 1em;
+}
+#info-container h4 {
+  text-align: center;
+}
+
+#productsCarousel img {
+	margin: 0 auto;
+}
+#info-container {
+  background-color:white;
+  color: grey;
+}
+#footer-container {
+  background-color: #1c3643;
+  color: white;
+  padding: 3em 0;
+}
+
+#footer-container h4 {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  #footer-container [class*="col-"] {
+    margin-bottom: 2em;
+  }
+}
